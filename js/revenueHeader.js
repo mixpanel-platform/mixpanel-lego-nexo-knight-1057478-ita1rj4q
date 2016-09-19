@@ -5,7 +5,7 @@ var graphRevenue = function () {
     revToday = $.trim(revToday);
     
     MP.api.jql(revToday).done(function(revResults) { // run jql query          
-         $('#revenue-header').text("$"+addCommas(revResults)); //add results to header 
+        // $('#revenue-header').text("$"+addCommas(revResults)); //add results to header 
     })        
 }
 graphRevenue()
